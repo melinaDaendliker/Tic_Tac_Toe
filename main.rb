@@ -83,7 +83,6 @@ while play_again
       puts ''
       break
     end
-
     player2.add_placement
     game_won = player2.check_for_win(game, 'O')
     print_gameboard(game)
